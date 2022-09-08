@@ -1,0 +1,36 @@
+/*
+* {
+  border: 1px solid black;
+}
+*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .choice {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .game_element {
+    width: 100px;
+  }
+
+  .versus {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .overall_result {
+    display: flex;
+    gap: 16px;
+  }
+
+#round_result, #game_result {
+  height: 16px;
+}
